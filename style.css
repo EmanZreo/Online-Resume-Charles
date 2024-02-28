@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+   font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -18,6 +19,7 @@ html {
 
 .resume-header{
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .resume-main{
@@ -34,4 +36,8 @@ html {
 
 .skills{
   width: 30%;
+}
+
+h1, h2, h3 {
+  font-family: "EB Garamond", serif;
 }
